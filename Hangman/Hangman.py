@@ -91,7 +91,7 @@ def get_next_letter(remaining_letters):     """Get the user-inputted next letter
         print('Try again next time!')
 
     # Ask player if he/she wants to try again with a q?
-    try_again = input('Would you like to try again? [y/Y] ')
+    try_again = input('Would you like to try again or are you done playing? [y/Y] ')
     return try_again.lower() == 'y'
 
 
